@@ -1,0 +1,6 @@
+{
+  "cercano": {
+    "command": "cercano",
+    "args": ["--mcp"]
+  }
+}

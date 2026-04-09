@@ -1,0 +1,13 @@
+{
+  "name": "cercano",
+  "version": "0.9.0",
+  "description": "Local-first AI co-processor — offload research, summarization, extraction, and more to local models via Ollama",
+  "author": {
+    "name": "Bryan Costanich",
+    "url": "https://github.com/bryancostanich"
+  },
+  "repository": "https://github.com/bryancostanich/cercano-claude",
+  "license": "MIT",
+  "keywords": ["local-inference", "ollama", "research", "mcp"],
+  "mcpServers": "./.mcp.json"
+}
