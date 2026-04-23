@@ -1,0 +1,32 @@
+{
+  "name": "cercano",
+  "owner": {
+    "name": "Bryan Costanich",
+    "url": "https://github.com/bryancostanich"
+  },
+  "metadata": {
+    "description": "Cercano — local-first AI co-processor for Claude Code via Ollama",
+    "version": "0.9.3"
+  },
+  "plugins": [
+    {
+      "name": "cercano",
+      "source": "./",
+      "description": "Local AI co-processor — offload research, summarization, extraction, classification, and code explanation to local models via Ollama. Save cloud tokens and keep work private.",
+      "version": "0.9.3",
+      "author": {
+        "name": "Bryan Costanich",
+        "url": "https://github.com/bryancostanich"
+      },
+      "category": "productivity",
+      "keywords": [
+        "local-inference",
+        "ollama",
+        "research",
+        "summarization",
+        "mcp",
+        "co-processor"
+      ]
+    }
+  ]
+}

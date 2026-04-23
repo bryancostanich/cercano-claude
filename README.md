@@ -4,20 +4,19 @@ Local-first AI co-processor for Claude Code. Offload research, summarization, ex
 
 ## Prerequisites
 
-- [Cercano](https://github.com/bryancostanich/Cercano) installed and on your PATH (`brew install bryancostanich/cercano/cercano`)
-- [Ollama](https://ollama.com/) running with at least one model pulled
+- [Cercano](https://github.com/bryancostanich/Cercano) installed and on your PATH (`brew install bryancostanich/cercano/cercano && cercano setup`)
+- [Ollama](https://ollama.com/) running with at least one chat model pulled
 
 ## Install
 
-```bash
-claude plugin install cercano
+From inside Claude Code, register the marketplace and install the plugin:
+
+```
+/plugin marketplace add bryancostanich/cercano-claude
+/plugin install cercano@cercano
 ```
 
-Or install from this repo directly:
-
-```bash
-claude plugin install --plugin-dir /path/to/cercano-claude
-```
+Then `/reload-plugins` (or restart Claude Code) to apply.
 
 ## What It Does
 
@@ -42,4 +41,4 @@ Cercano runs inference locally via Ollama, keeping your data private and saving 
 
 ## License
 
-MIT
+Apache-2.0
